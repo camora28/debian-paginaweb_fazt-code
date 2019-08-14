@@ -1,3 +1,16 @@
-test
+/* CSS --<Cascading Style Sheets(hojas de estilo en cascada)/> */
+h1 {
+    font-size: 30ṕx;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
 
-feComponentTransfer
+h2{
+    font-weight: bold 20px sans-serif;
+}
+
+header {
+    border: 1px;
+    font-weight: bold;
+    border-color: black;
+}
