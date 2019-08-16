@@ -1,16 +1,25 @@
-/* CSS --<Cascading Style Sheets(hojas de estilo en cascada)/> */
 h1 {
-    font-size: 30ṕx;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-family: sans-serif;
     font-weight: bold;
+    color: green;    
 }
 
-h2{
-    font-weight: bold 20px sans-serif;
+header,section,footer,aside,nav,article {
+    display: block;
+}  
+body {
+    text-align: center;
 }
 
-header {
-    border: 1px;
-    font-weight: bold;
-    border-color: black;
+.agrupado {
+    width: 1000px;
+    border: 1px solid black;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 15px auto  ;
+    padding: 100px;
+
+     
 }
