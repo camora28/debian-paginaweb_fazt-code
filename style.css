@@ -1,8 +1,7 @@
-h1 {
-    font-size: 20px;
-    font-family: sans-serif;
-    font-weight: bold;
-    color: green;    
+* {
+    margin: 0;
+    padding: 0;
+
 }
 
 header,section,footer,aside,nav,article {
@@ -15,11 +14,77 @@ body {
 .agrupado {
     width: 1000px;
     border: 1px solid black;
-    margin-top: auto;
+    margin-top: 2PX;
     margin-left: auto;
     margin-right: auto;
-    margin: 15px auto  ;
-    padding: 100px;
+    margin: 15px auto;
+    padding: auto; 
+}
 
-     
+.cabecera {
+    background: #00b894;
+    border: 1px solid #999999;
+    padding: 10px;
+    text-align: left;
+} 
+    .cabecera h1 {
+    text-align: left;
+
+}
+.menu {
+    background: #636e72;
+    padding: 4px 13px;
+    text-align: left;
+
+}
+.menu li {
+    list-style: none;
+    padding: 5px;
+    font: bold 12px verdana;
+    display: inline-block;
+}
+
+article {
+    background: #00b894;
+    border: 1px solid rosybrown;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+article footer {
+    text-align: right;
+    margin-top: 20px;
+}
+time {
+color: #636e72;
+}
+
+.sesion {
+    float: left;
+    margin: 10px 0px;
+    width: 600px;
+    padding: 10px;
+}
+.columna {
+    width: 360px;
+    float: left;
+    margin: 20px 0; 
+    
+    
+}
+.columna blockquote {
+    background: #00b894;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.pie {
+    clear: both;
+    padding: 20px;
+    background: #6c5ce7;
+    color: #ffffff;
+}
+img {
+    width: 120px;
+    display: block;
+    margin: 5px auto;
 }
